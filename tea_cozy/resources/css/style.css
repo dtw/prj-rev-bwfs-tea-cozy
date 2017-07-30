@@ -1,0 +1,133 @@
+/* Override browser stylesheet defaults */
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0px;
+}
+
+h2, h3, h4 {
+  margin: 0px;
+  padding: 10px;
+}
+
+/* styles for header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  height: 69px;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  z-index: 5;
+}
+
+.logo img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav span {
+  padding: 10px;
+}
+
+nav a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+/* styles for main container */
+.main {
+  position: relative;
+  top: 69px;
+  margin: 0px auto;
+}
+
+.main span {
+  display: block;
+  padding-bottom: 5px;
+}
+
+.content {
+  width: 1200px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#mission {
+  background-image: url(../images/img-mission-background.jpg);
+  height: 700px;
+}
+
+.strap {
+  background-color: black;
+  width: 100%;
+}
+
+#featured {
+  height: 700px;
+  width: 1000px;
+  padding-top: 69px;
+  justify-content: flex-start;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  padding: 5px;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+#locations {
+  background-image: url(../images/img-locations-background.jpg);
+  height: 500px;
+  align-items: center;
+}
+
+.locations {
+  display: flex;
+  padding-top: 5px;
+  width: 980px;
+  justify-content: space-between;
+}
+
+.location {
+  background-color: black;
+  opacity: 0.9;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* styles for footer */
+
+footer {
+  position: relative;
+  top: 69px;
+}
+
+.contact {
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+  padding-left: 20px;
+}
